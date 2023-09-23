@@ -5,7 +5,7 @@
 @font-face {
   font-family: 'Roboto!';
   src: local('Philosopher');
-  src: url(/src/font/Philosopher-Regular.ttf);
+  src: url(../font/Philosopher-Regular.ttf);
 }
 
 html {
@@ -15,10 +15,10 @@ html {
 @font-face {
   font-family: "Roboto!";
   src: local("Roboto");
-  src: url("/src/font/Roboto-Regular.woff");
-  src: url("/src/font/Roboto-Regular.eot") format("embedded-opentype"),
-    url("/src/font/Roboto-Regular.woff") format("woff"),
-    url("/src/font/Roboto-Regular.ttf") format("truetype");
+  src: url("../font/Roboto-Regular.woff");
+  src: url("../font/Roboto-Regular.eot") format("embedded-opentype"),
+    url("../font/Roboto-Regular.woff") format("woff"),
+    url("../font/Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
